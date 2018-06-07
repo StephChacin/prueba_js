@@ -20,8 +20,6 @@ $(".new_tweet").on("click", ".like_heart", function(event){
 				$(this).siblings(".likes_number").text("0");
 			}; 
 
-			
-
 });
 
 $(".new_tweet").on("click", ".remove_tweet", function(event){
@@ -63,10 +61,6 @@ $(".tweet_send").on("submit", function(event){
 	$("#tweet").val(" ");
 }); 
 
-//var tweet = $(".add_tweet").val();
 
-//
-//	$(this).parent().remove();
-//});
 
 	
